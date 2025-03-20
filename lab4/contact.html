@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="vi">
+	<head>
+		<title>Liên hệ</title>
+		<meta name = "author" content="Dang Hoang Thanh Nhi">
+		<meta name = "description" content="Thiet Ke Web">
+		<meta name = "keywords" content="20CT2101, Thiet Ke Web, Khoa CNTT, Trường Đại Học Đà Lạt ">
+		<meta name = "viewport" content="width=device-width, initial-scale=1">
+		<link rel="icon" href="https://dlu.edu.vn/wp-content/uploads/2023/06/cropped-DLU-Logo-full-New-32x32.png" sizes="32x32">
+		<link rel="stylesheet" href="style.css">
+	</head>
+	<body>
+		<form method="post" action="contact.php">
+        	<table border="2" cellspacing="5px">
+            	<tr>
+                <td style="text-align:center;" colspan="2" class="center"><strong>Liên hệ với chúng tôi</strong></td>
+            	</tr>
+            	<tr>
+                <td class="td150 required">Nhập họ và tên</td>
+                <td><input type="text" name="fullname" required></td>
+            	</tr>
+            	<tr>
+                <td class="required">Nhập địa chỉ email</td>
+                <td><input type="email" name="email" required></td>
+            	</tr>
+            	<tr>
+                <td class="required">Nhập số điện thoại</td>
+                <td><input type="text" name="phone" required></td>
+            	</tr>
+            	<tr>
+                <td>Nhập địa chỉ</td>
+                <td><input type="text" name="address"></td>
+            	</tr>
+            	<tr>
+                <td class="required">Chọn chủ đề</td>
+                <td>
+                    <select name="topic" required>
+                        <option value="Hỏi đáp">Hỏi đáp</option>
+                        <option value="Góp ý">Góp ý</option>
+                        <option value="Khiếu nại">Khiếu nại</option>
+                    </select>
+                </td>
+            	</tr>
+            	<tr>
+                <td class="required">Nhập nội dung</td>
+                <td><textarea name="content" rows="10" required></textarea></td>
+            	</tr>
+            	<tr>
+                <td colspan="2" class="center">
+                    <button type="reset" class="btn-reset">Nhập lại</button>
+                    <button type="submit" class="btn-submit">Gửi</button>
+                </td>
+            	</tr>
+        	</table>
+    		</form>
+	</body>
